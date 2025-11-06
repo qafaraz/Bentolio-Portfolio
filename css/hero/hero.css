@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    gap: 25px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.abouts {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.artistDesing {
+    width: 564px;
+    height: 480px;
+    background-color: #FADCD9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+
+.artistIcon {
+    align-self: flex-end;
+}
+
+.artistText {
+    font-size: 60px;
+}
+
+.projects {
+    width: 449px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 15px;
+    background-color: #FADCD9;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.projectsText {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.projectsText p {
+    width: 296px;
+}
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 449px;
+    height: 350px;
+    background-color: #F8AFA6;
+    border-radius: 20px;
+    padding: 32px 17px;
+    justify-content: space-between;
+}
+
+.arrowContanct {
+    width: 22px;
+    height: 22px;
+}
+
+.contactText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactText p {
+    width: 78px;
+    font-size: 15px;
+}
+
+.contact .contactBtn {
+    font-size: 55px;
+    color: black;
+}
+
+.aboutsMusea {
+    width: 100%;
+    height: 726px;
+    padding: 32px 17px;
+    background-color: #FADCD9;
+    border-radius: 20px;
+
+}
+
+.aboutsImg {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.aboutsImg p {
+    font-size: 25px;
+}
+
+.heroImage {
+    border-bottom: 1px solid #F8AFA6;
+}
+
+.heroImage img {
+    padding: 0 0 15px 0;
+}
+
+.aboutsTexts {
+    font-size: 25px;
+}
+
+.aboutsTexts li {
+    padding: 40px 0;
+}
+
+.border-b-1px {
+    border-bottom: 1px solid #F8AFA6;
+}
+
+.social {
+    width: 100%;
+    background-color: #FADCD9;
+    font-size: 16px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 17px;
+    border-radius: 20px;
+    margin: 45px 0 0 0;
+}
+
+.social a {
+    color: black;
+}
